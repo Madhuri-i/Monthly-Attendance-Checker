@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+
+    <style>
+        /* Styles for the button and background */
+        .button {
+            display: inline-block;
+            padding: 20px 30px;
+            background-color: #002244;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('p1.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .header {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.568);
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 21px;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .header h1, .header p {
+            margin: 0;
+            color: #002244;
+        }
+        .header p{
+            font-weight: 600;
+        }
+
+        .header h1 {
+            margin-left: 10px; /* Adjust as needed */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.568);
+            height: 40vh;
+            width: 40vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 200px; /* Add margin to compensate for the fixed header */
+        }
+
+        img.logo {
+            height: 126px;
+            width: 134px;
+            margin-right: 46px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="fi.png" alt="logo" class="logo">
+        <div>
+            <h1>Bhoj Reddy Engineering College for Women</h1>
+            <p>(Sponsored by Sangam Laxmibai Vidyapeet)</p>
+            <p>Approved by AICTE & Affiliated to JNTU Hyderabad</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <center>
+            <a href="classlogf.html" class="button">Class Attendance</a>
+        </center>
+    </div>
+</body>
+</html>
