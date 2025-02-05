@@ -12,6 +12,8 @@ Easy-to-Use: Simple design, easy for anyone to use without any technical knowled
 
 Technologies Used:
 HTML: Used to create the structure of the web pages (like buttons, forms, and tables).
+
 CSS: Used to style the pages and make the app look nice and clean.
-JavaScript: Makes the app interactive and view your data.
+
+JavaScript: Makes the app interactive and view your data in excel sheets.
 
