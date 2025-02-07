@@ -17,3 +17,7 @@ CSS: Used to style the pages and make the app look nice and clean.
 
 JavaScript: Makes the app interactive and view your data in excel sheets.
 
+
+![Screenshot 2024-07-04 175017](https://github.com/user-attachments/assets/2151bb11-748e-43e3-a6a8-9d9b693b6fa9) -home page
+
+![Screenshot 2024-07-04 175114](https://github.com/user-attachments/assets/918d5557-e58f-4e40-ab7f-97aa954666ba)
